@@ -9,7 +9,7 @@ module.exports = yeoman.generators.Base.extend({
 
     prompting: require('./prompt'),
 
-    configuring: {},
+    configuring: require('./configure'),
 
     writing: {},
 

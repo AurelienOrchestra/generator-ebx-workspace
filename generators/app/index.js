@@ -7,7 +7,7 @@ module.exports = yeoman.generators.Base.extend({
 
     initializing: require('./initialize'),
 
-    prompting: {},
+    prompting: require('./prompt'),
 
     configuring: {},
 

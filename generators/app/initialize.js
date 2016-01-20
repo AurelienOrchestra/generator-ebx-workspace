@@ -1,3 +1,4 @@
+'use strict';
 var chalk = require('chalk');
 var yosay = require('yosay');
 var path = require('path');

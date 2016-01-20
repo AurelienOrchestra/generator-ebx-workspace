@@ -22,6 +22,23 @@ module.exports = {
         }, {
             local: require.resolve('../ebxProject')
         });
+    },
+
+    generateEBXServer: function generateEBXServer() {
+        this.composeWith('ebx-workspace:ebxServer', {
+            options: {
+                workspacePath: this.workspacePath,
+                moduleName: this.inputs.moduleName,
+                userConfig: this.userConfig,
+                EBXcoreVersion: this.inputs.EBXcoreVersion,
+                EBXaddonsVersion: this.inputs.EBXaddonsVersion,
+                hasAddon: this.hasAddon,
+                EBXaddons: this.inputs.EBXaddons,
+                presalesToolbox: this.inputs.presalesToolbox
+            }
+        }, {
+            local: require.resolve('../ebxServer')
+        });
     }
 
 };

@@ -11,6 +11,7 @@
     "files": [
         "generators/app",
         "generators/ebxHome",
+        "generators/ebxServer",
         "generators/ebxProject"
     ],
     "main": "generators\\index.js",

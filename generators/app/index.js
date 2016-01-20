@@ -5,4 +5,16 @@ var yosay = require('yosay');
 
 module.exports = yeoman.generators.Base.extend({
 
+    initializing: require('./initialize'),
+
+    prompting: {},
+
+    configuring: {},
+
+    writing: {},
+
+    install: {},
+
+    end: {}
+
 });

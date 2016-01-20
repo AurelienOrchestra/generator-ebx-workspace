@@ -1,0 +1,143 @@
+<project name="EBX-Home" basedir="..">
+	<description></description>
+
+	<property file="${basedir}/launches/home.properties" />
+
+	<target name="set-initial-db" description="Set the initial state of the EBX Home's h2 db" depends="check-properties, backup-initial-db, backup-db">
+		<checkavailable path="${home.H2Lock.file}" type="dir" message="The H2 database is locked, please stop the server before setting initial state"/>
+		<echo message="Deleting the h2.initial directory content"/>
+		<delete includeemptydirs="true">
+			<fileset dir="${home.H2Initial.dir}" includes="**/*" />
+		</delete>
+		<echo message="Copying the h2 directory content to the h2.initial directory"/>
+		<copy todir="${home.H2Initial.dir}" flatten="true">
+			<fileset dir="${home.H2.dir}">
+				<include name="**/*.db" />
+				<exclude name="**/*lock*.db" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="reset-to-initial" description="Reset the EBX Home to its intial state" depends="check-properties, backup-db">
+		<echo message="Deleting the h2 directory content"/>
+		<delete includeemptydirs="true">
+			<fileset dir="${home.H2.dir}" includes="**/*" />
+		</delete>
+		<echo message="Copying the h2.initial directory content to the h2 directory"/>
+		<copy todir="${home.H2.dir}" flatten="true">
+			<fileset dir="${home.H2Initial.dir}">
+				<include name="**/*.db" />
+				<exclude name="**/*lock*.db" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="backup-db" description="Backup the h2 db" depends="check-properties">
+		<checkavailable path="${home.H2Lock.file}" type="dir" message="The H2 database is locked, please stop the server before the backup"/>
+		<tstamp>
+			<format	property="folderDate" pattern="yyyy-MM-dd-HH'h'mm"/>
+		</tstamp>
+		<input message="Optional information of the backup:" addproperty="folderInfo" />
+		<condition property="hasFolderInfo">
+			<not>
+				<equals arg1="${folderInfo}" arg2=""/>
+			</not>
+		</condition>
+		<condition property="hasNoFolderInfo">
+			<equals arg1="${folderInfo}" arg2=""/>
+		</condition>
+		<antcall target="create-backup-with-info"></antcall>
+		<antcall target="create-backup-without-info"></antcall>
+	</target>
+
+	<target name="backup-initial-db" depends="check-properties">
+		<tstamp>
+			<format	property="folderDate" pattern="yyyy-MM-dd-HH'h'mm"/>
+		</tstamp>
+		<property name="fixedFolderInfo" value="previous initial db" />
+		<antcall target="create-initial-DB-backup-with-info"></antcall>
+	</target>
+
+	<target name="create-backup-with-info" if="${hasFolderInfo}">
+		<antcall target="create-DB-backup">
+			<param name="folderName" value="${folderDate} (${folderInfo})"/>
+		</antcall>
+	</target>
+
+	<target name="create-backup-without-info" if="${hasNoFolderInfo}">
+		<antcall target="create-DB-backup">
+			<param name="folderName" value="${folderDate}"/>
+		</antcall>
+	</target>
+
+	<target name="create-initial-DB-backup-with-info">
+		<antcall target="create-intial-DB-backup">
+			<param name="fixedFolderName" value="${folderDate} (${fixedFolderInfo})"/>
+		</antcall>
+	</target>
+
+	<target name="create-DB-backup">
+		<echo message="Creating the backup directory ${folderName}"/>
+		<mkdir dir="${home.H2Backup.dir}/${folderName}" />
+		<echo message="Copying the h2 directory content to the backup directory"/>
+		<copy todir="${home.H2Backup.dir}/${folderName}" flatten="true">
+			<fileset dir="${home.H2.dir}">
+				<include name="**/*.db" />
+				<exclude name="**/*lock*.db" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="create-intial-DB-backup">
+		<echo message="Creating the backup of the current initial db in directory ${folderName}"/>
+		<mkdir dir="${home.H2Backup.dir}/${fixedFolderName}" />
+		<echo message="Copying the current initial h2 directory content to the backup directory"/>
+		<copy todir="${home.H2Backup.dir}/${fixedFolderName}" flatten="true">
+			<fileset dir="${home.H2Initial.dir}">
+				<include name="**/*.db" />
+				<exclude name="**/*lock*.db" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="clean" description="Clean the EBX Home">
+		<echo message="Deleting the log directory"/>
+		<delete quiet="true" dir="${home.Log.dir}" />
+		<echo message="Deleting the History directory"/>
+		<delete quiet="true" dir="${home.history.dir}" />
+	</target>
+
+	<target name="check-properties">
+		<checkpath path="${home.H2.dir}"              type="dir"  message="The 'home.H2.dir' build property is not valid: ${home.H2.dir}"/>
+		<checkpath path="${home.H2Initial.dir}"       type="dir"  message="The 'home.H2Initial.dir' build property is not valid: ${home.H2Initial.dir}"/>
+		<checkpath path="${home.H2Backup.dir}"        type="dir"  message="The 'home.H2Backup.dir' build property is not valid: ${home.H2Backup.dir}"/>
+	</target>
+
+	<macrodef name="checkpath" description="Fail when the provided path does not exist">
+		<attribute name="path"/>
+		<attribute name="type"/>
+		<attribute name="message"/>
+		<sequential>
+			<fail message="@{message}">
+				<condition>
+					<not>
+						<available file="@{path}" type="@{type}"/>
+					</not>
+				</condition>
+			</fail>
+		</sequential>
+	</macrodef>
+
+	<macrodef name="checkavailable" description="Fail when the provided path does exist">
+		<attribute name="path"/>
+		<attribute name="type"/>
+		<attribute name="message"/>
+		<sequential>
+			<fail message="@{message}">
+				<condition>
+					<available file="@{path}" type="@{type}"/>
+				</condition>
+			</fail>
+		</sequential>
+	</macrodef>
+</project>

@@ -11,7 +11,7 @@ module.exports = yeoman.generators.Base.extend({
 
     configuring: require('./configure'),
 
-    writing: {},
+    writing: require('./write'),
 
     install: {},
 

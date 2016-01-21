@@ -14,6 +14,7 @@ module.exports = yeoman.generators.Base.extend({
         initializeOptions: function initializeOptions() {
             this.modulePath = this.options.modulePath;
             this.moduleName = this.options.moduleName;
+            this.presalesToolbox = this.options.presalesToolbox;
         }
     },
 
@@ -32,17 +33,29 @@ module.exports = yeoman.generators.Base.extend({
                     moduleName: this.moduleName
                 }
             );
+
             this.fs.copyTpl(
                 this.templatePath('templates/EBX-Project/webapp/WEB-INF/_web.xml'),
                 path.join(this.modulePath, 'webapp/WEB-INF/web.xml'), {
                     moduleName: this.moduleName
                 }
             );
+
             this.fs.copyTpl(
                 this.templatePath(
                     'templates/EBX-Project/webapp/WEB-INF/ebx/_module.xml'),
                 path.join(this.modulePath, 'webapp/WEB-INF/ebx/module.xml'), {
                     moduleName: this.moduleName
+                }
+            );
+
+            this.fs.copyTpl(
+                this.templatePath(
+                    'templates/EBX-Project/src/com/orchestranetworks/ps/_Project.java'
+                ),
+                path.join(this.modulePath,
+                    'src/com/orchestranetworks/ps/Project.java'), {
+                    presalesToolbox: this.presalesToolbox
                 }
             );
         }

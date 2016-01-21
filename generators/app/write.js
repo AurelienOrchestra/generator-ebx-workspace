@@ -17,7 +17,8 @@ module.exports = {
         this.composeWith('ebx-workspace:ebxProject', {
             options: {
                 modulePath: this.modulePath,
-                moduleName: this.inputs.moduleName
+                moduleName: this.inputs.moduleName,
+                presalesToolbox: this.inputs.presalesToolbox
             }
         }, {
             local: require.resolve('../ebxProject')

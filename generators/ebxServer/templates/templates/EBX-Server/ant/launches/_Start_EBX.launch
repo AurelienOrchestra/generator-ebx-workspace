@@ -1,73 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
-<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/EBX-Server"/>
-</listAttribute>
-<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
-<listEntry value="4"/>
-</listAttribute>
-<booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
-<stringAttribute key="org.eclipse.debug.core.source_locator_id" value="org.eclipse.jdt.launching.sourceLocator.JavaSourceLookupDirector"/>
-<stringAttribute key="org.eclipse.debug.core.source_locator_memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;true&quot;&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;javaProject name=&amp;quot;<%= moduleName %>&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.jdt.launching.sourceContainer.javaProject&quot;/&gt;&#13;&#10;&lt;/sourceContainers&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;"/>
-<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
-<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
-<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
-</listAttribute>
-<stringAttribute key="org.eclipse.debug.ui.target_debug_perspective" value="org.eclipse.debug.ui.DebugPerspective"/>
-<stringAttribute key="org.eclipse.debug.ui.target_run_perspective" value="org.eclipse.debug.ui.DebugPerspective"/>
-<booleanAttribute key="org.eclipse.jdt.debug.ui.ATTR_FIND_ALL_SOURCE_ELEMENTS" value="true"/>
-<listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry id=&quot;org.eclipse.jdt.launching.classpathentry.variableClasspathEntry&quot;&gt;&#13;&#10;&lt;memento path=&quot;3&quot; variableString=&quot;${_tomcat_home}/bin/tomcat-juli.jar&quot;/&gt;&#13;&#10;&lt;/runtimeClasspathEntry&gt;&#13;&#10;"/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry id=&quot;org.eclipse.jdt.launching.classpathentry.variableClasspathEntry&quot;&gt;&#13;&#10;&lt;memento path=&quot;3&quot; variableString=&quot;${_tomcat_home}/bin/bootstrap.jar&quot;/&gt;&#13;&#10;&lt;/runtimeClasspathEntry&gt;&#13;&#10;"/>
-</listAttribute>
-<booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
-<booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_SOURCE_PATH" value="false"/>
-<stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7_x64"/>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.apache.catalina.startup.Bootstrap"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="start"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="EBX-Server"/>
-<listAttribute key="org.eclipse.jdt.launching.SOURCE_PATH">
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry containerPath=&quot;JRE_LIB&quot; path=&quot;2&quot;     sourceAttachmentPath=&quot;JRE_SRC&quot; sourceRootPath=&quot;&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry path=&quot;3&quot; projectName=&quot;_ebx&quot; type=&quot;1&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     internalArchive=&quot;/_ebx-resources/other-libs/jsp-1.2.jar&quot; path=&quot;3&quot;     sourceAttachmentPath=&quot;D:/Jtools/tomcat-4.1.18/src-jasper-4.1.18.zip&quot;     sourceRootPath=&quot;&quot; type=&quot;2&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     internalArchive=&quot;/_ebx-resources/other-libs/jsse-jdk-IBM-1.3.jar&quot;     path=&quot;3&quot; type=&quot;2&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Sun 1.2.2&quot;     path=&quot;3&quot; type=&quot;4&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry internalArchive=&quot;/_xJDBC-2.0/jdbc2_0-stdext.jar&quot;     path=&quot;3&quot; sourceAttachmentPath=&quot;/_xJDBC-2.0/jdbc2_0-stdext-src.zip&quot;     sourceRootPath=&quot;&quot; type=&quot;2&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry path=&quot;3&quot; projectName=&quot;EBX Server&quot; type=&quot;1&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry path=&quot;3&quot; projectName=&quot;_ebx-resources&quot; type=&quot;1&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     internalArchive=&quot;/_ebx-resources/other-libs/jsp-1.2.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     internalArchive=&quot;/_ebx-resources/other-libs/servlet-2.3.jar&quot;     path=&quot;3&quot; sourceAttachmentPath=&quot;/_ebx-resources/servlet-2.3-src.jar&quot;     sourceRootPath=&quot;&quot; type=&quot;2&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     internalArchive=&quot;/_ebx-resources/other-libs/activationFramework-1.0.1.jar&quot;     path=&quot;3&quot; type=&quot;2&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     internalArchive=&quot;/_ebx-resources/other-libs/javamail-1.2.jar&quot;     path=&quot;3&quot; type=&quot;2&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     internalArchive=&quot;/_ebx-resources/other-libs/jsse-jdk-sun-1.4.1_02.jar&quot;     path=&quot;3&quot; type=&quot;2&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry path=&quot;3&quot; projectName=&quot;_zTomcat&quot; type=&quot;1&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry containerPath=&quot;TOMCAT_LIBS/common/lib/ant.jar&quot;     path=&quot;3&quot; sourceAttachmentPath=&quot;TOMCAT_LIBS/src-ant-1.5.1.zip&quot;     sourceRootPath=&quot;&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/common/lib/naming-resources.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/common/lib/naming-factory.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/common/lib/naming-common.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/common/lib/jasper-runtime.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/common/lib/jasper-compiler.jar&quot; path=&quot;3&quot;     sourceAttachmentPath=&quot;TOMCAT_LIBS/src-jasper-4.1.18.zip&quot;     sourceRootPath=&quot;&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/common/lib/commons-logging-api.jar&quot;     path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/common/lib/commons-collections.jar&quot;     path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/common/lib/servlet.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/server/lib/commons-digester.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/server/lib/commons-beanutils.jar&quot;     path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/server/lib/commons-logging.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/server/lib/commons-modeler.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/server/lib/mx4j-jmx.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/server/lib/tomcat-util.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/bin/commons-daemon.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/server/lib/jakarta-regexp-1.2.jar&quot;     path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/server/lib/tomcat-coyote.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;TOMCAT_LIBS/server/lib/tomcat-http11.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry containerPath=&quot;JDK_TOOLS_LIB&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     internalArchive=&quot;/_ebx-resources/other-libs/junit-3.8.1.jar&quot;     path=&quot;3&quot; type=&quot;2&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     internalArchive=&quot;/_ebx-resources/other-libs/servlet-2.3.jar&quot;     path=&quot;3&quot;     sourceAttachmentPath=&quot;/_ebx-resources/other-libs/servlet-2.3-src.jar&quot;     sourceRootPath=&quot;&quot; type=&quot;2&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     internalArchive=&quot;/_ebx-resources/other-libs/junit-3.8.1.jar&quot;     path=&quot;3&quot;     sourceAttachmentPath=&quot;/_ebx-resources/other-libs/junit-3.8.1-src.jar&quot;     sourceRootPath=&quot;&quot; type=&quot;2&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     internalArchive=&quot;/_ebx-resources/other-libs/ant-1.3.jar&quot; path=&quot;3&quot;     sourceAttachmentPath=&quot;/_ebx-resources/other-libs/ant-1.3-src.zip&quot;     sourceRootPath=&quot;&quot; type=&quot;2&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry     containerPath=&quot;org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Sun 1.2.2&quot;     path=&quot;1&quot; type=&quot;4&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry path=&quot;3&quot; projectName=&quot;_ebx-demos&quot; type=&quot;1&quot;/&gt; "/>
-<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;runtimeClasspathEntry path=&quot;3&quot; projectName=&quot;_ebx-tools&quot; type=&quot;1&quot;/&gt; "/>
-</listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Debx.home=&quot;../EBX-Home&quot;&#13;&#10;-Debx.properties=&quot;../EBX-Home/ebx.properties&quot;&#13;&#10;-Dcatalina.home=&quot;${_tomcat_home}&quot; &#13;&#10;-Dcatalina.base=.&#13;&#10;-Djava.endorsed.dirs=&quot;${_tomcat_home}\common\endorsed&quot;&#13;&#10;-Xmx2048M&#13;&#10;-XX:MaxPermSize=512M"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/EBX-Server"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.debug.core.source_locator_id" value="org.eclipse.jdt.launching.sourceLocator.JavaSourceLookupDirector"/>
+    <stringAttribute key="org.eclipse.debug.core.source_locator_memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;javaProject name=&amp;quot;<%= moduleName %>&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.jdt.launching.sourceContainer.javaProject&quot;/&gt;&#13;&#10;&lt;/sourceContainers&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;"/>
+    <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+        <listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+        <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+    <listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry id=&quot;org.eclipse.jdt.launching.classpathentry.variableClasspathEntry&quot;&gt;&#13;&#10;&lt;memento path=&quot;3&quot; variableString=&quot;${_tomcat_home}/bin/tomcat-juli.jar&quot;/&gt;&#13;&#10;&lt;/runtimeClasspathEntry&gt;&#13;&#10;"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry id=&quot;org.eclipse.jdt.launching.classpathentry.variableClasspathEntry&quot;&gt;&#13;&#10;&lt;memento path=&quot;3&quot; variableString=&quot;${_tomcat_home}/bin/bootstrap.jar&quot;/&gt;&#13;&#10;&lt;/runtimeClasspathEntry&gt;&#13;&#10;"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.apache.catalina.startup.Bootstrap"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="start"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="EBX-Server"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Debx.home=&quot;../EBX-Home&quot;&#13;&#10;-Debx.properties=&quot;../EBX-Home/ebx.properties&quot;&#13;&#10;-Dcatalina.home=&quot;${_tomcat_home}&quot; &#13;&#10;-Dcatalina.base=.&#13;&#10;-Djava.endorsed.dirs=&quot;${_tomcat_home}\common\endorsed&quot;&#13;&#10;-Xmx2048M&#13;&#10;-XX:MaxPermSize=512M"/>
 </launchConfiguration>

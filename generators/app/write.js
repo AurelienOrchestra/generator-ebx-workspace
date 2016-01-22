@@ -6,7 +6,8 @@ module.exports = {
     generateEBXHome: function generateEBXHome() {
         this.composeWith('ebx-workspace:ebxHome', {
             options: {
-                workspacePath: this.workspacePath
+                workspacePath: this.workspacePath,
+                license: this.inputs.license
             }
         }, {
             local: require.resolve('../ebxHome')

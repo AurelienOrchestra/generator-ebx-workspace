@@ -13,6 +13,7 @@ module.exports = yeoman.generators.Base.extend({
 
         initializeOptions: function initializeOptions() {
             this.workspacePath = this.options.workspacePath;
+            this.license = this.options.license;
         }
     },
 
@@ -21,6 +22,15 @@ module.exports = yeoman.generators.Base.extend({
             this.directory(
                 this.templatePath('assets/EBX-Home/'),
                 path.join(this.workspacePath, 'EBX-Home/')
+            );
+        },
+
+        writeTemplates: function writeTemplates() {
+            this.fs.copyTpl(
+                this.templatePath('templates/EBX-Home/_ebx.properties'),
+                path.join(this.workspacePath, 'EBX-Home/ebx.properties'), {
+                    license: this.license
+                }
             );
         }
     }

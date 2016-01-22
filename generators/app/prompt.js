@@ -56,6 +56,20 @@ module.exports = {
         */
     },
 
+    askEBXLicenseKey: function askEBXLicenseKey() {
+        var done = this.async();
+        this.prompt({
+            type: 'input',
+            name: 'license',
+            message: 'Enter a license key?',
+            default: '',
+            store: true
+        }, function(answers) {
+            this.inputs.license = answers.license;
+            done();
+        }.bind(this));
+    },
+
     chooseEBXCoreVersion: function chooseEBXCoreVersion() {
         if (this.EBXcoreVersions && this.EBXcoreVersions.length > 0) {
             var done = this.async();

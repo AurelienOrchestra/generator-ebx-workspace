@@ -9,10 +9,7 @@
         "url": ""
     },
     "files": [
-        "generators/app",
-        "generators/ebxHome",
-        "generators/ebxServer",
-        "generators/ebxProject"
+        "generators/app"
     ],
     "main": "generators\\index.js",
     "keywords": [

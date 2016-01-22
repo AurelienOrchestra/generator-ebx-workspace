@@ -1,13 +1,23 @@
-# generator-ebx-workspace [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-ebx-workspace
+
 > Initial Presales workspace for a new EBX environment
+
+The generator creates the initial Eclipse workspace structure for a new EBX5 environment.
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-ebx-workspace using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-ebx-workspace
+```
+
+Then download or `git clone` this repository, install the dependecies and link it to npm:
+
+```bash
+cd generator-ebx-workspace
+npm install
+npm link
 ```
 
 Then generate your new project:

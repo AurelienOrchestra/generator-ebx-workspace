@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+  "http://java.sun.com/j2ee/dtds/web-app_2_3.dtd">
+<web-app>
+	<servlet>
+		<servlet-name><%= moduleName %></servlet-name>
+		<description>
+			This servlet is used for registering this web application as an EBX.Platform module.
+			In its init() method, it must call "ModulesRegister.registerWebApp()".
+			You may create a dedicated servlet like here, or reuse an existing servlet.
+		</description>
+		<servlet-class>com.orchestranetworks.ps.module.RegisterServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+</web-app>

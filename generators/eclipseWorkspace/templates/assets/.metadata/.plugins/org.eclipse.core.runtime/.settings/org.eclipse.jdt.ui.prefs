@@ -1,0 +1,19 @@
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.ui.abbreviatepackagenames=true
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.enable.visibility.order=true
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.pkgNameAbbreviationPatternForPackagesView=com.orchestranetworks\=co.on
+org.eclipse.jdt.ui.visibility.order=B,V,R,D,
+org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+outlinesortoption=T,SF,SI,SM,F,I,C,M,
+proposalOrderMigrated=true
+spelling_locale_initialized=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

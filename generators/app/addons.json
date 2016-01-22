@@ -1,0 +1,51 @@
+[{
+    "contextPath": "ebx-addon-adix",
+    "file": "ebx-addon-adix.war",
+    "name": "Data Exchange",
+    "checked": true
+}, {
+    "contextPath": "ebx-addon-daqa",
+    "file": "ebx-addon-daqa.war",
+    "name": "Match & Cleanse",
+    "checked": true
+}, {
+    "contextPath": "ebx-addon-dqid",
+    "file": "ebx-addon-dqid.war",
+    "name": "Insight",
+    "checked": true
+}, {
+    "contextPath": "ebx-addon-gram",
+    "file": "ebx-addon-gram.war",
+    "name": "Graph View",
+    "checked": true
+}, {
+    "contextPath": "ebx-addon-hmfm",
+    "file": "ebx-addon-hmfm.war",
+    "name": "Hyperion",
+    "checked": false
+}, {
+    "contextPath": "ebx-addon-igov",
+    "file": "ebx-addon-igov.war",
+    "name": "Information Governance",
+    "checked": false
+}, {
+    "contextPath": "ebx-addon-mtdh",
+    "file": "ebx-addon-mtdh.war",
+    "name": "Explicit Hierarchy Manager",
+    "checked": false
+}, {
+    "contextPath": "ebx-addon-mtrn",
+    "file": "ebx-addon-mtrn.war",
+    "name": "Monitoring",
+    "checked": false
+}, {
+    "contextPath": "ebx-addon-rpfl",
+    "file": "ebx-addon-rpfl.war",
+    "name": "Rules Protfolio",
+    "checked": true
+}, {
+    "contextPath": "ebx-addon-tese",
+    "file": "ebx-addon-tese.war",
+    "name": "Information Search",
+    "checked": true
+}]

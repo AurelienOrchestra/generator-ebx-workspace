@@ -40,7 +40,7 @@ public final class Project
 			this.dataSpace = Repository.getDefault().lookupHome(HomeKey.forBranchName(pDataSpaceName));
 			if (this.dataSpace != null)
 			{
-				this.dataSet = this.dataSpace.findAdaptationOrNull(AdaptationName.forName(dataSet));
+				this.dataSet = this.dataSpace.findAdaptationOrNull(AdaptationName.forName(pDataSetName));
 			}
 			else
 			{

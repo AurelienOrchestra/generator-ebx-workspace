@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<project name="EBX-Server" basedir="..">
+	<description></description>
+
+	<taskdef resource="net/sf/antcontrib/antlib.xml"/>
+	<property file="${basedir}/ant/server.properties" />
+
+	<!-- ===================================================================================================== -->
+
+	<target name="set-ebx-core-update-location">
+		<echo>Set EBX core update location</echo>
+		<input message="Please provide EBX root path (for example D:\)" addproperty="ebx.core.root" />
+	</target>
+
+	<target name="check-ebx-core-properties">
+		<echo>Check directories</echo>
+		<checkpath path="${ebx.core.root}${core.lib.dir}"    type="dir"  message="The core lib directory is not valid: ${ebx.core.root}${addon.lib.dir}"/>
+		<checkpath path="${ebx.core.root}${core.webapp.dir}" type="dir"  message="The core webapps directory is not valid: ${ebx.core.root}${addon.webapp.dir}"/>
+	</target>
+
+	<target name="update-ebx-core" description="Update EBX core" depends="set-ebx-core-update-location, check-ebx-core-properties">
+		<echo>Run EBX core update</echo>
+
+		<input message="Update EBX core from ${ebx.core.root} ? " validargs="y,n" addproperty="do.update" />
+		<condition property="do.abort">
+			<equals arg1="n" arg2="${do.update}" />
+		</condition>
+		<fail if="do.abort">Update aborted by user</fail>
+
+		<delete includeemptydirs="false">
+			<fileset dir="${server.lib.dir}">
+				<exclude name="*ebx*addons*"/>
+				<exclude name="*javadoc*.zip"/>
+				<exclude name="*.jar"/>
+			</fileset>
+			<fileset dir="${server.webapps.dir}">
+				<exclude name="*ebx*addons*"/>
+				<exclude name="*.war"/>
+			</fileset>
+		</delete>
+
+		<copy todir="${server.lib.dir}" overwrite="true" flatten="true">
+			<fileset dir="${ebx.core.root}${core.lib.dir}">
+				<exclude name="**/*sources*"/>
+			</fileset>
+		</copy>
+		<copy todir="${server.webapps.dir}" overwrite="true" flatten="true">
+			<fileset dir="${ebx.core.root}${core.webapp.dir}"/>
+		</copy>
+
+		<delete dir="${server.lib.dir}/lib-h2/" />
+
+		<local name="ebx.core.version" />
+		<basename property="ebx.core.version" file="${ebx.core.root}" />
+		<touch file="${server.lib.dir}/${ebx.core.version}" />
+		<touch file="${server.webapps.dir}/${ebx.core.version}" />
+
+		<echo>EBX core update done !</echo>
+
+	</target>
+
+	<!-- ===================================================================================================== -->
+
+	<target name="set-ebx-addons-update-location">
+		<echo>Set EBX addons update location</echo>
+		<input message="Please provide Add-on root folder path (for example D:\)" addproperty="ebx.addons.root" />
+	</target>
+
+	<target name="check-ebx-addon-properties">
+		<echo>Check directories</echo>
+		<checkpath path="${ebx.addons.root}${addon.lib.dir}"    type="dir"  message="The add-on lib directory is not valid: ${ebx.addons.root}${addon.lib.dir}"/>
+		<checkpath path="${ebx.addons.root}${addon.webapp.dir}" type="dir"  message="The add-on webapps directory is not valid: ${ebx.addons.root}${addon.webapp.dir}"/>
+	</target>
+
+	<target name="update-ebx-addons" description="Update EBX addons" depends="set-ebx-addons-update-location, check-ebx-addon-properties">
+		<echo>Run EBX addons update</echo>
+
+		<input message="Update Add-ons from ${ebx.addons.root} ?" validargs="y,n" addproperty="do.update" />
+		<condition property="do.abort">
+			<equals arg1="n" arg2="${do.update}" />
+		</condition>
+		<fail if="do.abort">Update aborted by user</fail>
+
+		<delete includeemptydirs="false">
+			<fileset dir="${server.lib.dir}">
+				<exclude name="*ebx_CD*"/>
+				<exclude name="*javadoc*.zip"/>
+				<exclude name="*.jar"/>
+			</fileset>
+			<fileset dir="${server.webapps.dir}">
+				<exclude name="*ebx_CD*"/>
+				<exclude name="*.war"/>
+			</fileset>
+		</delete>
+
+		<copy todir="${server.lib.dir}" overwrite="true">
+			<fileset dir="${ebx.addons.root}${addon.lib.dir}"/>
+		</copy>
+		<copy todir="${server.webapps.dir}" overwrite="true">
+			<fileset dir="${ebx.addons.root}${addon.webapp.dir}"/>
+		</copy>
+
+		<local name="ebx.addons.version" />
+		<basename property="ebx.addons.version" file="${ebx.addons.root}" />
+		<touch file="${server.lib.dir}/${ebx.addons.version}" />
+		<touch file="${server.webapps.dir}/${ebx.addons.version}" />
+
+		<echo>EBX add-ons update done !</echo>
+
+	</target>
+
+	<!-- ===================================================================================================== -->
+
+	<target name="clean-server" description="Clean the EBX-Server">
+		<echo>Clean server</echo>
+		<echo message="Deleting the log directory"/>
+		<delete quiet="true" dir="${server.log.dir}" />
+		<echo message="Deleting the work directory"/>
+		<delete quiet="true" dir="${server.work.dir}" />
+	</target>
+
+	<!-- ===================================================================================================== -->
+
+	<target name="light-wars" description="Remove the documentation from ebx wars to save space">
+		<echo>Light war files</echo>
+		<delete dir="${server.webapps.dir}/temp/" />
+		<mkdir dir="${server.webapps.dir}/temp/"/>
+		<for param="file">
+			<path>
+				<fileset dir="${server.webapps.dir}" includes="ebx*.war" />
+			</path>
+			<sequential>
+				<local name="filename"/>
+				<basename property="filename" file="@{file}" suffix=".war" />
+				<zip destfile="${server.webapps.dir}/temp/${filename}.war">
+					<zipfileset src="@{file}">
+						<exclude name="www/**/onHelp/" />
+						<!--
+						<exclude name="www/common/**/onHelp/simple/" />
+						<exclude name="www/common/**/onHelp/advanced/**/*.pdf" />
+						<exclude name="www/fr_FR/**/onHelp/" />
+						-->
+					</zipfileset>
+				</zip>
+			</sequential>
+		</for>
+		<delete includeemptydirs="false">
+			<fileset dir="${server.webapps.dir}" includes="ebx*.war"/>
+		</delete>
+		<copy todir="${server.webapps.dir}">
+			<fileset dir="${server.webapps.dir}/temp/">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+		<delete dir="${server.webapps.dir}/temp/" />
+	</target>
+
+	<!-- ===================================================================================================== -->
+
+	<macrodef name="checkpath" description="Fail when the provided path does not exist">
+		<attribute name="path"/>
+		<attribute name="type"/>
+		<attribute name="message"/>
+		<sequential>
+			<fail message="@{message}">
+				<condition>
+					<not>
+						<available file="@{path}" type="@{type}"/>
+					</not>
+				</condition>
+			</fail>
+		</sequential>
+	</macrodef>
+
+</project>

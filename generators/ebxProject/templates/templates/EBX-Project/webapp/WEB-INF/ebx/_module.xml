@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:ebx-schemas:module_2.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ebx-schemas:module_2.3 http://schema.orchestranetworks.com/module_2.3.xsd">
+	<name><%= moduleName %></name>
+	<publicPath><%= moduleName %></publicPath>
+	<services>
+		<!-- <serviceLink serviceName="MyService">
+			<importFromSchema>/WEB-INF/ebx/schemas/MySchema.xsd</importFromSchema>
+			<documentation xml:lang="en-US">
+				<label>Label of my service</label>
+			</documentation>
+			<documentation xml:lang="fr-FR">
+				<label>Libellé du service</label>
+			</documentation>
+			<properties>
+				<property name="branch" input="true" output="false">
+					<documentation xml:lang="en-US">
+						<label>Dataspace</label>
+					</documentation>
+					<documentation xml:lang="fr-FR">
+						<label>Espace de données</label>
+					</documentation>
+				</property>
+				<property name="instance" input="true" output="false">
+					<documentation xml:lang="en-US">
+						<label>Dataset</label>
+					</documentation>
+					<documentation xml:lang="fr-FR">
+						<label>Jeux de données</label>
+					</documentation>
+				</property>
+			</properties>
+		</serviceLink> -->
+	</services>
+	<beans>
+		<!-- <bean className="com.orchestranetworks.ps.workflow.script.MyScript">
+            <documentation xml:lang="en-US">
+                <label>Label of my script</label>
+            </documentation>
+            <documentation xml:lang="fr-FR">
+                <label>Libellé de mon script</label>
+            </documentation>
+            <properties>
+				<property name="propertyName" input="true" output="false">
+					<documentation xml:lang="en-US">
+                        <label>Property label</label>
+                    </documentation>
+                    <documentation xml:lang="fr-FR">
+                        <label>Libellé de la propriété</label>
+                    </documentation>
+                </property>
+            </properties>
+        </bean> -->
+	</beans>
+</module>

@@ -40,6 +40,17 @@ module.exports = {
         }, {
             local: require.resolve('../ebxServer')
         });
+    },
+
+    generateEclipseWorkspace: function generateEclipseWorkspace() {
+        this.composeWith('ebx-workspace:eclipseWorkspace', {
+            options: {
+                workspacePath: this.workspacePath,
+                moduleName: this.inputs.moduleName
+            }
+        }, {
+            local: require.resolve('../eclipseWorkspace')
+        });
     }
 
 };

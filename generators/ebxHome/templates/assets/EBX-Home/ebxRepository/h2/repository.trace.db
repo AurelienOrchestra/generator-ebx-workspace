@@ -1,169 +1,202 @@
-11-10 16:39:02 jdbc[3]: exception
+01-22 17:51:55 jdbc[2]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_REP" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_REP [42102-176]
-11-10 16:39:02 jdbc[3]: exception
+SELECT COUNT(*) FROM EBX_REP [42102-170]
+01-22 17:51:55 jdbc[2]: exception
 org.h2.jdbc.JdbcSQLException: Table "CF40_REPOSITORY" not found; SQL statement:
-SELECT COUNT(*) FROM CF40_REPOSITORY [42102-176]
-11-10 16:39:03 jdbc[3]: exception
+SELECT COUNT(*) FROM CF40_REPOSITORY [42102-170]
+01-22 17:51:55 jdbc[2]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_REP" not found; SQL statement:
-SELECT repository_id,format_id,repository_label FROM EBX_REP [42102-176]
-11-10 16:46:52 jdbc[3]: exception
+SELECT repository_id,format_id,repository_label FROM EBX_REP [42102-170]
+01-22 17:54:12 jdbc[2]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_REP" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_REP [42102-176]
-11-10 16:46:52 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "CF40_REPOSITORY" not found; SQL statement:
-SELECT COUNT(*) FROM CF40_REPOSITORY [42102-176]
-11-10 16:46:52 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_REP" not found; SQL statement:
-SELECT repository_id,format_id,repository_label FROM EBX_REP [42102-176]
-11-10 16:48:24 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_REP" not found; SQL statement:
-SELECT repository_id,format_id,repository_label FROM EBX_REP [42102-176]
-11-10 16:48:24 jdbc[3]: exception
+SELECT repository_id,format_id,repository_label FROM EBX_REP [42102-170]
+01-22 17:54:12 jdbc[2]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_DDS" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DDS [42102-176]
-11-10 16:48:24 jdbc[3]: exception
+SELECT COUNT(*) FROM EBX_DDS [42102-170]
+01-22 17:54:12 jdbc[2]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_DDO" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DDO [42102-176]
-11-10 16:48:24 jdbc[3]: exception
+SELECT COUNT(*) FROM EBX_DDO [42102-170]
+01-22 17:54:12 jdbc[2]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_DDX" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DDX [42102-176]
-11-10 16:48:24 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_DDX [42102-170]
+01-22 17:54:12 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_DDS" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DDS [42102-176]
-11-10 16:48:24 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_DDS [42102-170]
+01-22 17:54:12 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_DDS" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DDS [42102-176]
-11-10 16:48:24 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_DDS [42102-170]
+01-22 17:54:12 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_DDO" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DDO [42102-176]
-11-10 16:48:24 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_DDO [42102-170]
+01-22 17:54:12 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_DDX" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DDX [42102-176]
-11-10 16:48:24 jdbc[3]: exception
+SELECT COUNT(*) FROM EBX_DDX [42102-170]
+01-22 17:54:12 jdbc[2]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_REL" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_REL [42102-176]
-11-10 16:48:24 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_REL [42102-170]
+01-22 17:54:12 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_REL" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_REL [42102-176]
-11-10 16:48:24 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_REL [42102-170]
+01-22 17:54:13 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_REP" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_REP [42102-176]
-11-10 16:48:24 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_REP [42102-170]
+01-22 17:54:13 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_HOM" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HOM [42102-176]
-11-10 16:48:24 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_HOM [42102-170]
+01-22 17:54:13 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_ILR" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_ILR [42102-176]
-11-10 16:48:24 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_ILR [42102-170]
+01-22 17:54:13 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_IRV" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_IRV [42102-176]
-11-10 16:48:24 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_IRV [42102-170]
+01-22 17:54:13 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_HTI" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HTI [42102-176]
-11-10 16:48:24 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_HTI [42102-170]
+01-22 17:54:13 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_TLR" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TLR [42102-176]
-11-10 16:48:24 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_TLR [42102-170]
+01-22 17:54:13 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_TLR" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TLR [42102-176]
-11-10 16:48:24 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_TLR [42102-170]
+01-22 17:54:13 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_BRV" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_BRV [42102-176]
-11-10 16:48:24 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_BRV [42102-170]
+01-22 17:54:13 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_HTB" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HTB [42102-176]
-11-10 16:48:24 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_HTB [42102-170]
+01-22 17:54:13 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_HTB" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HTB [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_HTB [42102-170]
+01-22 17:54:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_BLK" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_BLK [42102-170]
+01-22 17:54:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_BLK" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_BLK [42102-170]
+01-22 17:54:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_BLK" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_BLK [42102-170]
+01-22 17:54:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_BLK" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_BLK [42102-170]
+01-22 17:54:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_BLK" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_BLK [42102-170]
+01-22 17:54:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_TAR" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_TAR [42102-170]
+01-22 17:54:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_ATB" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_ATB [42102-170]
+01-22 17:54:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HTA" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HTA [42102-170]
+01-22 17:54:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_MIGHTB" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_MIGHTB [42102-170]
+01-22 17:54:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_MIGHTB" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_MIGHTB [42102-170]
+01-22 17:54:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_MIGHTB" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_MIGHTB [42102-170]
+01-22 17:54:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_MIGHTB" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_MIGHTB [42102-170]
+01-22 17:54:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_MIGHTB" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_MIGHTB [42102-170]
+01-22 17:54:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_MIGHTB" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_MIGHTB [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_RRO" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_RRO [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_RRO [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_XS" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_XS [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_XS [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT EBX_XS_SEQ.NEXTVAL FROM[*] DUAL  "; expected "identifier"; SQL statement:
-SELECT EBX_XS_SEQ.nextval FROM DUAL  [42001-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT EBX_XS_SEQ.nextval FROM DUAL  [42001-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_TXS" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TXS [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_TXS [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT EBX_TXS_SEQ.NEXTVAL FROM[*] DUAL  "; expected "identifier"; SQL statement:
-SELECT EBX_TXS_SEQ.nextval FROM DUAL  [42001-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT EBX_TXS_SEQ.nextval FROM DUAL  [42001-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_CXS" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_CXS [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_CXS [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_IDX" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_IDX [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_IDX [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT EBX_IDX_SEQ.NEXTVAL FROM[*] DUAL  "; expected "identifier"; SQL statement:
-SELECT EBX_IDX_SEQ.nextval FROM DUAL  [42001-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT EBX_IDX_SEQ.nextval FROM DUAL  [42001-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_ICX" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_ICX [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_ICX [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_CTP" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_CTP [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_CTP [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT EBX_CTP_SEQ.NEXTVAL FROM[*] DUAL  "; expected "identifier"; SQL statement:
-SELECT EBX_CTP_SEQ.nextval FROM DUAL  [42001-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT EBX_CTP_SEQ.nextval FROM DUAL  [42001-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_FCT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_FCT [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_FCT [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT EBX_FCT_SEQ.NEXTVAL FROM[*] DUAL  "; expected "identifier"; SQL statement:
-SELECT EBX_FCT_SEQ.nextval FROM DUAL  [42001-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT EBX_FCT_SEQ.nextval FROM DUAL  [42001-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_LXS" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_LXS [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_LXS [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Column "HV_COLUMN_NAME" not found; SQL statement:
-SELECT  hv_column_name FROM EBX_LXS WHERE 1=0 [42122-176]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
-	at org.h2.message.DbException.get(DbException.java:178)
-	at org.h2.message.DbException.get(DbException.java:154)
-	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:148)
-	at org.h2.command.dml.Select.prepare(Select.java:831)
-	at org.h2.command.Parser.prepareCommand(Parser.java:248)
-	at org.h2.engine.Session.prepareLocal(Session.java:442)
-	at org.h2.engine.Session.prepareCommand(Session.java:384)
-	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1188)
-	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:172)
-	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:160)
+SELECT  hv_column_name FROM EBX_LXS WHERE 1=0 [42122-170]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:141)
+	at org.h2.command.dml.Select.prepare(Select.java:799)
+	at org.h2.command.Parser.prepareCommand(Parser.java:218)
+	at org.h2.engine.Session.prepareLocal(Session.java:414)
+	at org.h2.engine.Session.prepareCommand(Session.java:363)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:164)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:152)
 	at com.onwbp.org.apache.commons.dbcp.DelegatingStatement.execute(DelegatingStatement.java:264)
 	at com.onwbp.org.apache.commons.dbcp.DelegatingStatement.execute(DelegatingStatement.java:264)
 	at com.onwbp.org.apache.commons.dbcp.DelegatingStatement.execute(DelegatingStatement.java:264)
-	at com.orchestranetworks.cce.rdb.resource.a.executeStatementSafely(a.java:29)
-	at com.orchestranetworks.cce.rdb.g.isColumnDefined(g.java:33)
-	at com.orchestranetworks.cce.rdb.ddl.an.c(an.java:161)
-	at com.orchestranetworks.cce.rdb.ddl.an.d(an.java:288)
-	at com.orchestranetworks.cce.rdb.ddl.u.b(u.java:1)
-	at com.orchestranetworks.cce.rdb.ddl.r.a(r.java:1)
-	at com.orchestranetworks.cce.rdb.ddl.an.a(an.java:285)
-	at com.orchestranetworks.cce.rdb.ddl.k.checkScriptCanBeAppliedOrThrow(k.java:2)
-	at com.orchestranetworks.cce.rdb.ddl.execution.i.a(i.java:44)
+	at com.orchestranetworks.cce.rdb.resource.a.executeStatementSafely(a.java:56)
+	at com.orchestranetworks.cce.rdb.g.isColumnDefined(g.java:124)
+	at com.orchestranetworks.cce.rdb.ddl.ar.c(ar.java:78)
+	at com.orchestranetworks.cce.rdb.ddl.ar.d(ar.java:256)
+	at com.orchestranetworks.cce.rdb.ddl.w.b(w.java:5)
+	at com.orchestranetworks.cce.rdb.ddl.s.a(s.java:5)
+	at com.orchestranetworks.cce.rdb.ddl.ar.a(ar.java:294)
+	at com.orchestranetworks.cce.rdb.ddl.k.checkScriptCanBeAppliedOrThrow(k.java:11)
+	at com.orchestranetworks.cce.rdb.ddl.execution.i.a(i.java:70)
 	at com.orchestranetworks.cce.rdb.ddl.execution.j.executeScript(j.java:4)
-	at com.orchestranetworks.cce.rdb.ddl.ak.executeDDLScripts(ak.java:21)
-	at com.orchestranetworks.cce.rdb.ddl.ak.executeDDLScripts(ak.java:5)
-	at com.orchestranetworks.cce.rdb.installation.f.a(f.java:22)
-	at com.orchestranetworks.cce.rdb.installation.d.a(d.java:12)
-	at com.orchestranetworks.cce.rdb.installation.f.a(f.java:12)
-	at com.orchestranetworks.cce.rdb.installation.f.ensureInstallationOfAllPatches(f.java:10)
-	at com.onwbp.adaptation.rep.rdb.b.b(b.java:179)
-	at com.onwbp.adaptation.al.a(al.java:63)
-	at com.onwbp.adaptation.aa.a(aa.java:13)
-	at com.onwbp.adaptation.al.<init>(al.java:60)
-	at com.onwbp.adaptation.hg.<init>(hg.java:162)
-	at com.onwbp.adaptation.hg.a(hg.java:272)
-	at com.onwbp.adaptation.CfRepositoryEnvelope.a(CfRepositoryEnvelope.java:18)
-	at com.onwbp.adaptation.CfRepositoryEnvelope.initializeDefaultRepositoryByInstallingItIfPropertiesSpecified(CfRepositoryEnvelope.java:53)
-	at com.onwbp.front.UserSessionController.a(UserSessionController.java:9)
-	at com.onwbp.front.UserSessionController.b(UserSessionController.java:39)
-	at com.onwbp.front.UserSessionController.executeRequest(UserSessionController.java:8)
-	at com.onwbp.front.Dispatcher.route(Dispatcher.java:80)
-	at com.onwbp.front.FrontServlet.service(FrontServlet.java:40)
+	at com.orchestranetworks.cce.rdb.ddl.ao.executeDDLScripts(ao.java:58)
+	at com.orchestranetworks.cce.rdb.ddl.ao.executeDDLScripts(ao.java:36)
+	at com.orchestranetworks.cce.rdb.installation.f.a(f.java:48)
+	at com.orchestranetworks.cce.rdb.installation.d.a(d.java:4)
+	at com.orchestranetworks.cce.rdb.installation.f.a(f.java:25)
+	at com.orchestranetworks.cce.rdb.installation.f.ensureInstallationOfAllPatches(f.java:37)
+	at com.onwbp.adaptation.rep.rdb.d.b(d.java:233)
+	at com.onwbp.adaptation.an.a(an.java:37)
+	at com.onwbp.adaptation.ab.a(ab.java:8)
+	at com.onwbp.adaptation.an.<init>(an.java:77)
+	at com.onwbp.adaptation.hn.<init>(hn.java:193)
+	at com.onwbp.adaptation.hn.a(hn.java:148)
+	at com.onwbp.adaptation.CfRepositoryEnvelope.a(CfRepositoryEnvelope.java:20)
+	at com.onwbp.adaptation.CfRepositoryEnvelope.initializeDefaultRepositoryByInstallingItIfPropertiesSpecified(CfRepositoryEnvelope.java:25)
+	at com.onwbp.front.UserSessionController.a(UserSessionController.java:12)
+	at com.onwbp.front.UserSessionController.b(UserSessionController.java:30)
+	at com.onwbp.front.UserSessionController.executeRequest(UserSessionController.java:7)
+	at com.onwbp.front.Dispatcher.route(Dispatcher.java:464)
+	at com.onwbp.front.FrontServlet.service(FrontServlet.java:32)
 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
@@ -184,462 +217,186 @@ SELECT  hv_column_name FROM EBX_LXS WHERE 1=0 [42122-176]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-11-10 16:48:25 jdbc[4]: exception
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_RPU" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_RPU [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_RPU [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_TXR" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TXR [42102-176]
-11-10 16:48:25 jdbc[3]: exception
+SELECT COUNT(*) FROM EBX_TXR [42102-170]
+01-22 17:54:14 jdbc[2]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_DDT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DDT [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_DDT [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_DDT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DDT [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_DDT [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_HV_TX" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HV_TX [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_HV_TX [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT EBX_HV_TX_SEQ.NEXTVAL FROM[*] DUAL  "; expected "identifier"; SQL statement:
-SELECT EBX_HV_TX_SEQ.nextval FROM DUAL  [42001-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT EBX_HV_TX_SEQ.nextval FROM DUAL  [42001-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_HV_TX_STAT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HV_TX_STAT [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_HV_TX_STAT [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT EBX_HV_TX_STAT_SEQ.NEXTVAL FROM[*] DUAL  "; expected "identifier"; SQL statement:
-SELECT EBX_HV_TX_STAT_SEQ.nextval FROM DUAL  [42001-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT EBX_HV_TX_STAT_SEQ.nextval FROM DUAL  [42001-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_HV_USER" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HV_USER [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_HV_USER [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT EBX_HV_USER_SEQ.NEXTVAL FROM[*] DUAL  "; expected "identifier"; SQL statement:
-SELECT EBX_HV_USER_SEQ.nextval FROM DUAL  [42001-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT EBX_HV_USER_SEQ.nextval FROM DUAL  [42001-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_HV_ACTION" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HV_ACTION [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_HV_ACTION [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT EBX_HV_ACTION_SEQ.NEXTVAL FROM[*] DUAL  "; expected "identifier"; SQL statement:
-SELECT EBX_HV_ACTION_SEQ.nextval FROM DUAL  [42001-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT EBX_HV_ACTION_SEQ.nextval FROM DUAL  [42001-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_HV_INSTANCE" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HV_INSTANCE [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_HV_INSTANCE [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT EBX_HV_INSTANCE_SEQ.NEXTVAL FROM[*] DUAL  "; expected "identifier"; SQL statement:
-SELECT EBX_HV_INSTANCE_SEQ.nextval FROM DUAL  [42001-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT EBX_HV_INSTANCE_SEQ.nextval FROM DUAL  [42001-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_HV_HOM" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HV_HOM [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_HV_HOM [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT EBX_HV_HOM_SEQ.NEXTVAL FROM[*] DUAL  "; expected "identifier"; SQL statement:
-SELECT EBX_HV_HOM_SEQ.nextval FROM DUAL  [42001-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT EBX_HV_HOM_SEQ.nextval FROM DUAL  [42001-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_HV_SESSION" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HV_SESSION [42102-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT COUNT(*) FROM EBX_HV_SESSION [42102-170]
+01-22 17:54:14 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT EBX_HV_SESSION_SEQ.NEXTVAL FROM[*] DUAL  "; expected "identifier"; SQL statement:
-SELECT EBX_HV_SESSION_SEQ.nextval FROM DUAL  [42001-176]
-11-10 16:48:25 jdbc[4]: exception
+SELECT EBX_HV_SESSION_SEQ.nextval FROM DUAL  [42001-170]
+01-22 17:54:15 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EBX_HV_MERGE" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HV_MERGE [42102-176]
-11-10 16:48:30 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_DEC" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_DEC [42102-176]
-11-10 16:48:30 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_RULE" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_RULE [42102-176]
-11-10 16:48:30 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_RULE_PROPERTYDATA" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_RULE_PROPERTYDATA [42102-176]
-11-10 16:48:30 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_RULEDOMAIN" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_RULEDOMAIN [42102-176]
-11-10 16:48:30 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_RULESETRULE" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_RULESETRULE [42102-176]
-11-10 16:48:30 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_RULEEXECUTION" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_RULEEXECUTION [42102-176]
-11-10 16:48:30 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_RULEEXECUTION_PROPERTYDATA" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_RULEEXECUTION_PROPERTYDATA [42102-176]
-11-10 16:48:30 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_RULEEXECUTION_PROFILE" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_RULEEXECUTION_PROFILE [42102-176]
-11-10 16:48:30 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_RULEEXECUTION_FKDATASETCONTEXT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_RULEEXECUTION_FKDATASETCONTEXT [42102-176]
-11-10 16:48:30 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_RULEEXECUTIONCONTEXT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_RULEEXECUTIONCONTEXT [42102-176]
-11-10 16:48:30 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_SIMPLEEXPRESSION" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_SIMPLEEXPRESSION [42102-176]
-11-10 16:48:30 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_SIMPLEEXPRESSION_PROPERTYDATA" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_SIMPLEEXPRESSION_PROPERTYDATA [42102-176]
-11-10 16:48:30 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_SIMPLEEXPRESSION_VALUE" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_SIMPLEEXPRESSION_VALUE [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_PERMISSIONRULE" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_PERMISSIONRULE [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_PERMISSIONRULE_PROPERTYDATA" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_PERMISSIONRULE_PROPERTYDATA [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_PERMISSIONRULEDOMAIN" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_PERMISSIONRULEDOMAIN [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_PERMISSIONRULESSETCONTENT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_PERMISSIONRULESSETCONTENT [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_PERMISSIONRULEEXECUTION" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_PERMISSIONRULEEXECUTION [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_PERMISSIONRULEEXECUTION_PROPERTYDATA" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_PERMISSIONRULEEXECUTION_PROPERTYDATA [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_PERMISSIONRULEEXECUTION_PROFILE" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_PERMISSIONRULEEXECUTION_PROFILE [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_PERMISSIONRULEEXECUTION_FKDATASETCONTEXT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_PERMISSIONRULEEXECUTION_FKDATASETCONTEXT [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_PERMISSIONCONTEXT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_PERMISSIONCONTEXT [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_PERMISSIONSIMPLEEXPRESSIONCONTEXT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_PERMISSIONSIMPLEEXPRESSIONCONTEXT [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_PERMISSIONSIMPLEEXPRESSIONCONTEXT_PROPERTYDATA" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_PERMISSIONSIMPLEEXPRESSIONCONTEXT_PROPERTYDATA [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_PERMISSIONSIMPLEEXPRESSIONCONTEXT_VALUE" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_PERMISSIONSIMPLEEXPRESSIONCONTEXT_VALUE [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_DOMAINOFRULE" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_DOMAINOFRULE [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_DOMAINOFRULEHIERARCHY" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_DOMAINOFRULEHIERARCHY [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_RULESET" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_RULESET [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_PERMISSIONRULESSET" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_PERMISSIONRULESSET [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_HG_DATACONTEXT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_HG_DATACONTEXT [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_TRANSLOG__ROOTLOG" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TRANSLOG__ROOTLOG [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_TRANSLOG__ROOTLOG" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TRANSLOG__ROOTLOG [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_TRANSLOG__LOGGING" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TRANSLOG__LOGGING [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_TRANSLOG__LOGGING" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TRANSLOG__LOGGING [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_TRANSLOG__LOGGINGRULE" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TRANSLOG__LOGGINGRULE [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_TRANSLOG__LOGGINGRULE" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TRANSLOG__LOGGINGRULE [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_TRANSLOG__LOGGINGSIMPLEEXPRESSIONCONTEXT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TRANSLOG__LOGGINGSIMPLEEXPRESSIONCONTEXT [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_TRANSLOG__LOGGINGSIMPLEEXPRESSIONCONTEXT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TRANSLOG__LOGGINGSIMPLEEXPRESSIONCONTEXT [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_TRANSLOG__LOGGING00" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TRANSLOG__LOGGING00 [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_TRANSLOG__LOGGING00" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TRANSLOG__LOGGING00 [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_TRANSLOG__LOGGINGRULE00" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TRANSLOG__LOGGINGRULE00 [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_TRANSLOG__LOGGINGRULE00" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TRANSLOG__LOGGINGRULE00 [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_TRANSLOG__LOGGINGSIMPLEEXPRESSION" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TRANSLOG__LOGGINGSIMPLEEXPRESSION [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_TRANSLOG__LOGGINGSIMPLEEXPRESSION" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TRANSLOG__LOGGINGSIMPLEEXPRESSION [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_TRANSLOG__ARCHIVE" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_TRANSLOG__ARCHIVE [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_AUDITLOG__ROOTLOG" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_AUDITLOG__ROOTLOG [42102-176]
-11-10 16:48:31 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_AUDITLOG__ROOTLOG" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_AUDITLOG__ROOTLOG [42102-176]
-11-10 16:48:32 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_AUDITLOG__LOGGING" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_AUDITLOG__LOGGING [42102-176]
-11-10 16:48:32 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_AUDITLOG__LOGGING" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_AUDITLOG__LOGGING [42102-176]
-11-10 16:48:32 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_AUDITLOG__LOGGINGRULE" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_AUDITLOG__LOGGINGRULE [42102-176]
-11-10 16:48:32 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_AUDITLOG__LOGGINGRULE" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_AUDITLOG__LOGGINGRULE [42102-176]
-11-10 16:48:32 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_AUDITLOG__LOGGINGSIMPLEEXPRESSIONCONTEXT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_AUDITLOG__LOGGINGSIMPLEEXPRESSIONCONTEXT [42102-176]
-11-10 16:48:32 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_AUDITLOG__LOGGINGSIMPLEEXPRESSIONCONTEXT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_AUDITLOG__LOGGINGSIMPLEEXPRESSIONCONTEXT [42102-176]
-11-10 16:48:32 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_AUDITLOG__LOGGING00" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_AUDITLOG__LOGGING00 [42102-176]
-11-10 16:48:32 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_AUDITLOG__LOGGING00" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_AUDITLOG__LOGGING00 [42102-176]
-11-10 16:48:32 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_AUDITLOG__LOGGINGRULE00" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_AUDITLOG__LOGGINGRULE00 [42102-176]
-11-10 16:48:32 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_AUDITLOG__LOGGINGRULE00" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_AUDITLOG__LOGGINGRULE00 [42102-176]
-11-10 16:48:32 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_AUDITLOG__LOGGINGSIMPLEEXPRESSION" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_AUDITLOG__LOGGINGSIMPLEEXPRESSION [42102-176]
-11-10 16:48:32 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_AUDITLOG__LOGGINGSIMPLEEXPRESSION" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_AUDITLOG__LOGGINGSIMPLEEXPRESSION [42102-176]
-11-10 16:48:32 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_AUDITLOG__ARCHIVE" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_AUDITLOG__ARCHIVE [42102-176]
-11-10 16:48:35 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DAQA__BIGDATACLEANSINGREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DAQA__BIGDATACLEANSINGREPORT [42102-176]
-11-10 16:48:35 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DAQA__BIGDATAPROFILINGREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DAQA__BIGDATAPROFILINGREPORT [42102-176]
-11-10 16:48:35 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DAQA__UNUSEDRECORD" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DAQA__UNUSEDRECORD [42102-176]
-11-10 16:48:35 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DAQA__DEPRECATEDRECORD" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DAQA__DEPRECATEDRECORD [42102-176]
-11-10 16:48:35 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DAQA__FIXRELATIONDATA" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DAQA__FIXRELATIONDATA [42102-176]
-11-10 16:48:35 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DAQA__CROSSWALK" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DAQA__CROSSWALK [42102-176]
-11-10 16:48:36 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DAQA__CROSSWALKADDITIONALRESULT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DAQA__CROSSWALKADDITIONALRESULT [42102-176]
-11-10 16:48:36 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DAQA__CROSSWALKADDITIONALRESULT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DAQA__CROSSWALKADDITIONALRESULT [42102-176]
-11-10 16:48:36 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__DATAELEMENTCONCEPT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__DATAELEMENTCONCEPT [42102-176]
-11-10 16:48:36 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__INDICATOR" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__INDICATOR [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__PERIODICITYOFCONTROL" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__PERIODICITYOFCONTROL [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__COMPUTATIONFREQUENCY" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__COMPUTATIONFREQUENCY [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__EXECUTIONVALUEINDICATOR" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__EXECUTIONVALUEINDICATOR [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__EXECUTIONVALUEINDICATOR" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__EXECUTIONVALUEINDICATOR [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__EXECUTIONVALUEINDICATOR" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__EXECUTIONVALUEINDICATOR [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__EXECUTIONVALUEINDICATOR" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__EXECUTIONVALUEINDICATOR [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__EXECUTIONVALUEPART" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__EXECUTIONVALUEPART [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__EXECUTIONVALUEPART" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__EXECUTIONVALUEPART [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__LINKEDRECORD" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__LINKEDRECORD [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__LINKEDRECORD" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__LINKEDRECORD [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__LINKEDRECORD" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__LINKEDRECORD [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__LINKEDITEM" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__LINKEDITEM [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__LINKEDITEM" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__LINKEDITEM [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__WATCHDOGINDICATORREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__WATCHDOGINDICATORREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__WATCHDOGINDICATORREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__WATCHDOGINDICATORREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__WATCHDOGINDICATORREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__WATCHDOGINDICATORREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__WATCHDOGINDICATORBIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__WATCHDOGINDICATORBIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__WATCHDOGINDICATORBIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__WATCHDOGINDICATORBIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__CORRELATEDWATCHDOGINDICATORREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__CORRELATEDWATCHDOGINDICATORREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__CORRELATEDWATCHDOGINDICATORREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__CORRELATEDWATCHDOGINDICATORREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__CORRELATEDWATCHDOGINDICATORREPORTWATCHDOGINDICATORREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__CORRELATEDWATCHDOGINDICATORREPORTWATCHDOGINDICATORREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID__CORRELATEDWATCHDOGINDICATORREPORTWATCHDOGINDICATORREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID__CORRELATEDWATCHDOGINDICATORREPORTWATCHDOGINDICATORREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__DATAELEMENTCONCEPT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__DATAELEMENTCONCEPT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__INDICATOR" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__INDICATOR [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__PERIODICITYOFCONTROL" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__PERIODICITYOFCONTROL [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__COMPUTATIONFREQUENCY" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__COMPUTATIONFREQUENCY [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__EXECUTIONVALUEINDICATOR" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__EXECUTIONVALUEINDICATOR [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__EXECUTIONVALUEINDICATOR" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__EXECUTIONVALUEINDICATOR [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__EXECUTIONVALUEINDICATOR" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__EXECUTIONVALUEINDICATOR [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__EXECUTIONVALUEINDICATOR" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__EXECUTIONVALUEINDICATOR [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__EXECUTIONVALUEPART" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__EXECUTIONVALUEPART [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__EXECUTIONVALUEPART" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__EXECUTIONVALUEPART [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__BIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__BIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__LINKEDRECORD" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__LINKEDRECORD [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__LINKEDRECORD" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__LINKEDRECORD [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__LINKEDRECORD" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__LINKEDRECORD [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__LINKEDITEM" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__LINKEDITEM [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__LINKEDITEM" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__LINKEDITEM [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__WATCHDOGINDICATORREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__WATCHDOGINDICATORREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__WATCHDOGINDICATORREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__WATCHDOGINDICATORREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__WATCHDOGINDICATORREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__WATCHDOGINDICATORREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__WATCHDOGINDICATORBIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__WATCHDOGINDICATORBIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__WATCHDOGINDICATORBIGDATAREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__WATCHDOGINDICATORBIGDATAREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__CORRELATEDWATCHDOGINDICATORREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__CORRELATEDWATCHDOGINDICATORREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__CORRELATEDWATCHDOGINDICATORREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__CORRELATEDWATCHDOGINDICATORREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__CORRELATEDWATCHDOGINDICATORREPORTWATCHDOGINDICATORREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__CORRELATEDWATCHDOGINDICATORREPORTWATCHDOGINDICATORREPORT [42102-176]
-11-10 16:48:37 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "EBX_DQID_TEST__CORRELATEDWATCHDOGINDICATORREPORTWATCHDOGINDICATORREPORT" not found; SQL statement:
-SELECT COUNT(*) FROM EBX_DQID_TEST__CORRELATEDWATCHDOGINDICATORREPORTWATCHDOGINDICATORREPORT [42102-176]
+SELECT COUNT(*) FROM EBX_HV_MERGE [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_PUBLICATION" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_PUBLICATION [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_PUBLICATION" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_PUBLICATION [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_PROCESS" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_PROCESS [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_PROCESS" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_PROCESS [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_PROCESS" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_PROCESS [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_PROCESS" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_PROCESS [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_PROCESS" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_PROCESS [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_PROCESSDOCUMENTATION" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_PROCESSDOCUMENTATION [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_PROCESSCOMMENT" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_PROCESSCOMMENT [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_PROCESSCOMMENT" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_PROCESSCOMMENT [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_PROCESSCOMMENT" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_PROCESSCOMMENT [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_PROCESSCOMMENT" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_PROCESSCOMMENT [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_STEP" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_STEP [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_STEP" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_STEP [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_STEP" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_STEP [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_STEP" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_STEP [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_EVENT" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_EVENT [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_EVENT" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_EVENT [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_EVENT" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_EVENT [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_EVENT" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_EVENT [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_EVENT" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_EVENT [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_SUBWORKFLOWEVENTINVOCATION" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_SUBWORKFLOWEVENTINVOCATION [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_SUBWORKFLOWEVENTINVOCATION" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_SUBWORKFLOWEVENTINVOCATION [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_WAITEVENT" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_WAITEVENT [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_WAITEVENT" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_WAITEVENT [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_WAITEVENTPARAMETER" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_WAITEVENTPARAMETER [42102-170]
+01-22 17:54:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_CONDITIONEVENT" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_CONDITIONEVENT [42102-170]
+01-22 17:54:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_WORKITEMEVENT" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_WORKITEMEVENT [42102-170]
+01-22 17:54:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_WORKITEMEVENT" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_WORKITEMEVENT [42102-170]
+01-22 17:54:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_WORKITEMEVENT" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_WORKITEMEVENT [42102-170]
+01-22 17:54:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_EVENTDATACONTEXTPARAMETER" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_EVENTDATACONTEXTPARAMETER [42102-170]
+01-22 17:54:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_EVENTERRORINFO" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_EVENTERRORINFO [42102-170]
+01-22 17:54:22 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_WORKITEMEVENTPARAMETER" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_WORKITEMEVENTPARAMETER [42102-170]
+01-22 17:54:22 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_WORKITEMEVENTMESSAGE" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_WORKITEMEVENTMESSAGE [42102-170]
+01-22 17:54:22 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_WORKITEMEVENTMESSAGE" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_WORKITEMEVENTMESSAGE [42102-170]
+01-22 17:54:22 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_WORKITEMEVENTOFFEREDTO" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_WORKITEMEVENTOFFEREDTO [42102-170]
+01-22 17:54:22 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_WORKITEMEVENTOFFEREDTO" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_WORKITEMEVENTOFFEREDTO [42102-170]
+01-22 17:54:22 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_PROFILE" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_PROFILE [42102-170]
+01-22 17:54:22 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_PROFILE" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_PROFILE [42102-170]
+01-22 17:54:22 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_EVENTERRORMESSAGE" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_EVENTERRORMESSAGE [42102-170]
+01-22 17:54:22 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_INTERACTION" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_INTERACTION [42102-170]
+01-22 17:54:22 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "EBX_HWF_INTERACTION" not found; SQL statement:
+SELECT COUNT(*) FROM EBX_HWF_INTERACTION [42102-170]

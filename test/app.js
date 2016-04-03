@@ -5,4 +5,6 @@ var helpers = require('yeoman-generator').test;
 
 describe('generator-ebx-workspace:app', function() {
 
+    // Write the tests
+
 });
